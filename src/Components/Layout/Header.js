@@ -6,7 +6,7 @@ export default function Header(props) {
     return (
         <>
          <header className={classes.header}>
-           <h1>FOODBOOK</h1>
+           <h2>FOODBOOK</h2>
           <HeaderCartButton onClick={props.onShowCart} /> 
         </header>   
         <div className={classes['main-image']}>
